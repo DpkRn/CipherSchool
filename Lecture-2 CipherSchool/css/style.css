@@ -4,3 +4,9 @@ body{
 table,th,td{
     border: 2px solid black;
 }
+.firstclass{
+    text-align: center;
+}
+#firstId{
+    background-color:aqua;
+}
