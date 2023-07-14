@@ -1,0 +1,106 @@
+body{
+    /* background-image: linear-gradient(to right, red,blue); */
+
+}
+.nav{
+    background-color: blue;
+    opacity: .7;
+}
+ul{
+  list-style-type:none; 
+  
+}
+.list{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap; /*it shifts all the data below if pixel becomes small*/
+   
+}
+img{
+    height: 300px;
+    width: 300px;
+}
+.container
+{
+    text-align: center;
+   
+}
+.card{
+    background-color:white;
+    display: inline-block;
+    box-shadow: 5px 5px 20px rgb(49, 46, 46);
+   
+}
+.card:hover{
+   
+}
+.text{
+    text-align: center;
+}
+.text p{
+    margin: 30px;
+    border: 1px solid black;
+    padding: 10px 40px 10px 40px;
+    border-radius: 4px;
+    display: inline-block;
+    font-size: 20px;
+    
+}
+.text p:hover{
+    box-shadow: 0px 0px 1px  3px #05a4d8, 0px 0px 1px  3px #ace3f5;
+    
+   
+}
+.list li{
+    margin: 10px;
+    transform: scale(1.5px);
+    color: aliceblue;
+    text-shadow: 2px 2px 1px #1e1e1e;
+    
+    font-size: 20px;
+}
+a{
+    text-decoration: none;
+}
+@media screen and(min-width: 480px){
+   .res p{
+    
+    background-color:rgb(2, 6, 8);
+   }
+}
+.flex-container{
+    display: flex;
+    flex-wrap: wrap;
+    /* flex-direction: column; */
+    background-color: red;
+    justify-content:center;
+    /* align-content: space-between; */
+   align-content: center;
+    height: 300px;
+/* padding: 10px; */
+}
+.flex-container>div{
+    padding: 20px;
+    font-weight: bold;
+    font-size: large;
+    text-align: center;
+    /* background-color: #05a4d8; */
+    /* border: 1px solid black; */
+    /* margin:10px; */
+}
+.flex-container>div:hover{
+    padding: 20px;
+    background-color: #05a4d8;
+    border: 1px solid black;
+    /* margin:10px; */
+}
+@media screen and (max-width: 600px){
+    .flex-container{
+    flex-direction: column;
+    }
+} 
+    
+ 
+    
